@@ -35,8 +35,6 @@ img {
 
 /*header*/
 .header {
-  height: 80px;
-  background-color: var(--color-background-black);
   display: flex;
   justify-content: center;
   align-items: center;
