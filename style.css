@@ -261,6 +261,7 @@ img {
   display: flex;
   box-shadow: 4px 4px 0 var(--color-accent-red);
   transition-duration: 0.3s;
+  text-decoration: none;
 }
 
 .card:hover {
@@ -313,7 +314,8 @@ img {
 
 .explanation {
   margin: 0;
-  font-family: var(--font-family-body);
+  font-family: Noto Sans;
+  color: var(--color-black);
 }
 
 .detail {
@@ -333,6 +335,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .button:hover {
