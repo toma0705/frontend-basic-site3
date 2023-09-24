@@ -182,7 +182,7 @@ img {
   align-items: center;
   color: #fffefc;
   font-size: 16px;
-  font-family: var(--font-family-body);
+  font-family: Noto Sans;
   margin: 13px 0;
 }
 
@@ -230,7 +230,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .frame17 {
@@ -294,7 +294,7 @@ img {
   position: relative;
   font-size: 32px;
   letter-spacing: 0.05em;
-  font-style: 400;
+  font-weight: 400;
 }
 
 .cardBody {
@@ -379,6 +379,7 @@ img {
 
   .button {
     height: 40px;
+    padding: 0 20px;
   }
 
   .buttonText {
