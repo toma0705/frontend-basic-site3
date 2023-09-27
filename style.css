@@ -257,7 +257,6 @@ img {
 }
 
 .card {
-  height: 150px;
   display: flex;
   box-shadow: 4px 4px 0 var(--color-accent-red);
   transition-duration: 0.3s;
