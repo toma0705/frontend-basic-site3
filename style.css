@@ -13,6 +13,7 @@
   --color-form-border-red: #df6da2;
   --color-button-hover-red: #f043a5;
   --color-course-hover-yellow: #f4e877;
+  --form-placeholder-gray: #ad9783;
   --color-hero-overlay: rgba(57, 24, 111, 0.4);
   --color-course-overlay: rgba(32, 8, 19, 0.63);
 }
@@ -465,11 +466,11 @@ img {
 }
 
 input::placeholder {
-  color: var(--color-form-background-gray);
+  color: var(--form-placeholder-gray);
 }
 
 textarea::placeholder {
-  color: var(--color-form-background-gray);
+  color: var(--form-placeholder-gray);
 }
 
 .application-big-button {
@@ -533,6 +534,10 @@ textarea::placeholder {
   .toma {
     display: grid;
     gap: 5px;
+  }
+
+  .application-big-button {
+    padding: 10px 20px;
   }
 
   .big-button-label {
