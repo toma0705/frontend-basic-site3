@@ -422,6 +422,7 @@ img {
   font-family: Noto Sans;
   font-weight: 400;
   word-wrap: break-word;
+  margin: 0;
 }
 
 .application-form {
@@ -463,12 +464,12 @@ img {
   word-wrap: break-word;
 }
 
-.input::placeholder {
-  color: var(--color-form-placeholder-gray);
+input::placeholder {
+  color: var(--color-form-background-gray);
 }
 
-.textarea::placeholder {
-  color: var(--color-form-placeholder-gray);
+textarea::placeholder {
+  color: var(--color-form-background-gray);
 }
 
 .application-big-button {
@@ -480,8 +481,7 @@ img {
   align-items: center;
   border: 0;
   gap: 10px;
-  padding: 0 40px;
-  height: 60px;
+  padding: 10px 40px;
 }
 
 .application-big-button:hover {
@@ -500,6 +500,21 @@ img {
 }
 
 @media (max-width: 750px) {
+  .application {
+    padding: 40px 0;
+  }
+
+  .application-container {
+    margin: 0 20px;
+  }
+
+  .application-section-head {
+    font-size: 24px;
+    font-family: Anton;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+
   .application-input-container {
     grid-template-columns: 1fr;
     row-gap: 10px;
@@ -519,6 +534,10 @@ img {
     display: grid;
     gap: 5px;
   }
+
+  .big-button-label {
+    font-size: 14px;
+  }
 }
 
 /* フッター */
@@ -528,6 +547,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
 .footer-copyright {
@@ -538,5 +560,9 @@ img {
 @media (max-width: 750px) {
   .footer {
     padding: 40px 0;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
   }
 }
